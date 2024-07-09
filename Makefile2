@@ -1,0 +1,12 @@
+python3 -m timeit -r 1 -n 1 -s "import subprocess" -s 'subprocess.run("python3 autograder.py", shell=True)'  # Measure the time here
+	# ./main1 < test.txt > out.txt
+	# cat out.txt
+	# python3 temp.py
+	# diff -Bw temp2.txt temp.txt
+	# rm temp2.txt out.txt
+	./main2 < test.txt > out.txt
+	cat out.txt
+	python3 temp.py
+	diff -Bw temp2.txt temp.txt
+	# rm *.txt
+	# rm *.o
