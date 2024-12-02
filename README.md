@@ -1,4 +1,4 @@
-## Q4 How the times changed !
+# Assembly Matrix Calculations
 
 ### a) Review
 * In this question you are supposed to implement matrix operations involving hadamard product and linear combination.
